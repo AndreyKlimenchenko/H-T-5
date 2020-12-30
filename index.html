@@ -1,14 +1,166 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Домашнее задание №5">
-    <meta name="author" content="Андрей Клименченко FE108">
-    <title>Домашнее задание №5 / Верстка с фигмы</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>webdev</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="life-section">
+        <header class="header">
+            <button class="nav-button nav-button--active">About</button>
+            <button class="nav-button">Syllabus</button>
+            <button class="nav-button logo-button"><img class="logo" src="./assets/icons/logo.svg" alt="logo"></button>
+            <button class="nav-button">Projects</button>
+            <button class="nav-button">FAQ</button>
+        </header> 
+        <div class="life-content">
+            <h1 class="title">your life is webdev</h1>
+            <p class="subtitle">
+                Whatever the approach to development may be,
+                 the final program must satisfy some fundamental properties
+            </p>
+            <button class="btn-main">
+                get started
+            </button>
+            <div class="social-btns">
+                <button class="social-btn">
+                    <img class="social-icon" src="./assets/icons/postIcon.svg" alt="post">
+                </button>
+                <button class="social-btn">
+                    <img class="social-icon" src="./assets/icons/facebook.svg" alt="facebook">
+                </button>
+                <button class="social-btn">
+                    <img class="social-icon" src="./assets/icons/insta.svg" alt="insta">
+                </button>
+                <button class="social-btn">
+                    <img class="social-icon" src="./assets/icons/youtube.svg" alt="youtube">
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="rappresent">
+        <section class="rappresent-info">
+            <h2 class="rappresent-title">
+                Rappresent your idea with a smart Design
+            </h2>
+            <p class="rappresent-content">
+                Tasks accompanying and related to programming include: 
+                <br/>testing, debugging, source code maintenance, 
+                <strong>implementation of build systems</strong>, 
+                and management of derived artifacts, 
+                such as the machine code of computer programs. 
+            </p>
+            <button class="btn-main">
+                get started
+            </button>
+        </section>
+        <img class="rappresent-img" src="./assets/images/rappresent-img.jpg" alt="rappresent-img">
+    </div>
+    <div class="community">
+        <section class="community-info">
+            <img class="userpic" src="./assets/images/userpic.png" alt="userpic">
+            <h3 class="community-title">
+                our community
+            </h3>
+            <p class="community-content">
+                A hacker is any skilled computer expert that uses their technical knowledge 
+                to overcome a problem, but it can also mean a security hacker in common language
+            </p>
+        </section>
+        <section class="slider">
+            <div class="slider-nav">
+                <button class="arrow-btn">
+                    <img class="arrow" src="./assets/icons/arrow-left.svg" alt="arrow-left">
+                </button>
+                <span class="page">1</span>
+                <img src="./assets/icons/divider-icon.svg" alt="divider-icon">
+                <span class="page">5</span>
+                <button class="arrow-btn">
+                    <img class="arrow" src="./assets/icons/arrow-right.svg" alt="arrow-right">
+                </button>
+            </div>
+            <div class="slider-images">
+                <img class="slide-img" src="./assets/images/slide1.jpg" alt="slide1">
+                <img class="slide-img" src="./assets/images/slide2.jpg" alt="slide2">
+                <img class="slide-img" src="./assets/images/slide1.jpg" alt="slide3">
+            </div>
+        </section>
+    </div>
+    <div class="implement">
+        <img class="implement-img" src="./assets/images/implement-img.jpg" alt="implement">
+        <div class="implement-info">
+            <h2 class="implement-title">
+                Implement right Code
+            </h2>
+            <p class="implement-content">
+                These might be considered part of the <strong>programming process</strong>, 
+                but often the term software development is used for this 
+                larger process with the term programming, implementation
+            </p>
+            <button class="btn-main impliment-btn">
+                learn more
+            </button>
+        </div>
+    </div>
+    <div class="signup">
+        <h2 class="signup-title">
+            sign up for our newsletter
+        </h2>
+        <div class="input-container">
+            <input class="email-input" type="email" placeholder="E-mail">
+            <button class="email-btn">
+                <img src="./assets/icons/check-icon.svg" alt="check-icon">
+            </button>
+        </div>
+    </div>
+    <div class="download">
+        <h2 class="download-title">
+            Download the App
+        </h2>
+        <p class="download-content">
+            Machine code was the language of early programs, 
+            written in the instruction set of the particular machine, often in binary notation.
+        </p>
+        <div class="download-btns">
+            <button class="download-btn">
+                <div class="btn-text">
+                    Apple store
+                </div>
+                <div class="icon-container">
+                    <img class="apple-icon" src="./assets/icons/apple.svg" alt="apple">
+                </div>
+            </button>
+            <button class="download-btn">
+                <div class="btn-text">
+                    Play market
+                </div>
+                <div class="icon-container">
+                    <img class="store-icon" src="./assets/icons/store.svg" alt="store">
+                </div>
+            </button>
+        </div>
+    </div>
+    <footer class="footer">
+        <nav class="footer-nav">
+            <button class="footer-btn">
+                Credits
+            </button>
+            <img class="footer-icon" src="./assets/icons/footer-divider.svg" alt="footer-divider">
+            <button class="footer-btn">
+                Privacy
+            </button>
+            <img class="footer-icon" src="./assets/icons/footer-divider.svg" alt="footer-divider">
+            <button class="footer-btn">
+                Our teams
+            </button>
+        </nav>
+        <button class="nav-button footer-logo"><img class="logo" src="./assets/icons/logo.svg" alt="logo"></button>
+        <span class="footer-text">
+            by TonYem for RSS at 2020
+        </span>
+    </footer>
 </body>
 </html>

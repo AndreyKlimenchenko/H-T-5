@@ -1,0 +1,457 @@
+body {
+    margin: 0px auto;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    width: 1600px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95px;
+    background-color: rgb(0, 0, 0);
+}
+
+.nav-button {
+    margin: 0px 45px 0px 40px;
+    padding: 1px 0px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    line-height: 20px;
+    border-bottom: solid 1px transparent;
+}
+.nav-button:hover {
+    color: rgb(255, 255, 255);
+}
+
+.nav-button--active {
+    color: rgb(255, 255, 255);
+    border-bottom: solid 1px rgb(255, 255, 255);
+}
+
+.logo {
+    width: 44px;
+    height: 45px;
+}
+
+.logo-button {
+    margin: 0px 60px 0px 55px;
+}
+
+.life-section {
+    height: 744px;
+    background-image: url(./assets/images/bg-image.jpg);
+}
+
+.title {
+    margin: 135px 0px 0px 0px;
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 4.5px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255,255,255);
+}
+
+.subtitle {
+    margin: 20px 0px 30px 0px;
+    width: 504px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.btn-main {
+    width: 184px;
+    height: 46px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 175, 219);
+}
+
+.btn-main:hover {
+    background-color: rgb(0,156,194);
+}
+
+.social-btns {
+    margin-top: 183px;
+    margin-bottom: 90px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-btn {
+    padding: 0px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.social-btn:hover {
+    cursor: pointer;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.life-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rappresent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 140px;
+    box-sizing: border-box;
+}
+
+.rappresent-title {
+    width: 368px;
+    margin: 0px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(55, 55, 55);
+}
+
+.rappresent-content {
+    margin: 20px 0px 30px 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: rgb(78, 78, 78);
+}
+
+.rappresent-info {
+    width: 411px;
+    margin-right: 248px;
+}
+
+.rappresent-img {
+    width: 407px;
+    height: 582px;
+}
+
+.community {
+    padding: 120px 0px 140px 0px;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(245,246,247);
+}
+
+.userpic {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.community-title {
+    margin: 20px 0px 10px 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: rgb(55, 55, 55);
+}
+
+.community-content {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: rgb(78, 78, 78);
+}
+
+.community-info {
+    width: 298px;
+    margin-right: 139px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow-btn {
+    margin: 0px 15px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.arrow-btn:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.arrow {
+    width: 6px;
+    height: 11px;
+}
+
+.page {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: rgb(55, 55, 55);
+}
+
+.slider-images {
+    width: 894px;
+    display: flex;
+    overflow: hidden;
+}
+
+.slide-img {
+    width: 407px;
+    height: 244px;
+    margin-right: 30px;
+}
+
+.slider-nav {
+    margin: 0px 256px 20px 0px;
+    position: absolute;
+    top: 82px;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.implement {
+    padding: 120px 0px 140px 269px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.impliment-btn {
+    width: 180px;
+}
+
+.implement-img {
+    width: 407px;
+    height: 582px;
+}
+
+.implement-title {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(55, 55, 55);
+}
+
+.implement-content {
+    margin: 20px 0px 30px 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: rgb(78, 78, 78);
+}
+
+.implement-info {
+    margin-left: 139px;
+    width: 407px;
+}
+
+.signup {
+    padding: 200px 0px 220px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./assets/images/sign-upimg.png)
+}
+
+.signup-title {
+    margin: 0px 0px 30px 0px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.email-input {
+    width: 340px;
+    height: 46px;
+    padding: 0px 24px;
+    font-weight: 400;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    background: rgb(255, 255, 255);
+}
+
+.email-btn {
+    width: 66px;
+    height: 46px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(0, 175, 219);
+}
+
+.email-btn:hover {
+    background-color: rgb(0,156,194);
+}
+
+.input-container {
+    display: flex;
+}
+
+.download {
+    padding: 120px 0px 180px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245,246,247);
+}
+
+.download-title {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(55, 55, 55);
+}
+
+.download-content {
+    width: 480px;
+    margin: 20px 0px 30px 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: rgb(78, 78, 78);
+}
+
+.apple-icon {
+    width: 16px;
+    height: 18px;
+}
+
+.store-icon {
+    width: 19px;
+    height: 22px;
+}
+
+.icon-container {
+    width: 59px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 156, 194);
+}
+
+.download-btn {
+    height: 46px;
+    padding: 0px;
+    margin: 0px 15px;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 175, 219);
+}
+
+.download-btn:hover {
+    cursor: pointer;
+    background-color: rgb(0,156,194);
+}
+
+.btn-text {
+    width: 127px;
+}
+
+.download-btns {
+    display: flex;
+}
+
+.footer {
+    height: 185px;
+    padding: 73px 145px 92px 145px;
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer-btn {
+    padding: 0px 15px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.footer-btn:hover {
+    cursor: pointer;
+}
+
+.footer-text {
+    margin: 0px 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: rgb(129, 129, 129);
+}
+
+.footer-logo {
+    margin: 0px auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
